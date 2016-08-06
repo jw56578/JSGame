@@ -8,6 +8,8 @@ create collision detection. do we maintain another datastruction representing ev
 --if the pixel location is taken then there is collision
 --or do we say that all things have to be a minimal size - this can't work because things like weapons are smaller than characters
 --so we need to maintain every pixel location and store a pointer to the thing that is currently there
+-- need to cleare out previous spots so maintain previous location, in order to clear it out
+-- need to cancel moves if collision occurs
 
 
 
